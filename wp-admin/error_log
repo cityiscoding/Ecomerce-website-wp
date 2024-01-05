@@ -1,0 +1,27 @@
+[31-Dec-2023 17:30:41 UTC] PHP Fatal error:  Uncaught TypeError: Typed property Ship_Depot_Package::$Length must be float, string used in /home/pallmal2/public_html/wp-content/plugins/ship-depot/helper/class-function-get-data.php:25
+Stack trace:
+#0 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(173): Ship_Depot_Get_Data->get_package_sizes()
+#1 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(140): sd_submit_data_and_save_to_order_meta_data(Object(Automattic\WooCommerce\Admin\Overrides\Order), false, true)
+#2 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(45): sd_woocommerce_new_shipping(1383)
+#3 /home/pallmal2/public_html/wp-includes/class-wp-hook.php(326): sd_save_wc_order_other_fields(1383)
+#4 /home/pallmal2/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(1383, Array)
+#5 /home/pallmal2/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/pallmal2/public_html/wp-inclu in /home/pallmal2/public_html/wp-content/plugins/ship-depot/helper/class-function-get-data.php on line 25
+[31-Dec-2023 17:33:00 UTC] PHP Fatal error:  Uncaught TypeError: Typed property Ship_Depot_Package::$Length must be float, string used in /home/pallmal2/public_html/wp-content/plugins/ship-depot/helper/class-function-get-data.php:25
+Stack trace:
+#0 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(173): Ship_Depot_Get_Data->get_package_sizes()
+#1 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(140): sd_submit_data_and_save_to_order_meta_data(Object(Automattic\WooCommerce\Admin\Overrides\Order), false, true)
+#2 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(45): sd_woocommerce_new_shipping(1383)
+#3 /home/pallmal2/public_html/wp-includes/class-wp-hook.php(326): sd_save_wc_order_other_fields(1383)
+#4 /home/pallmal2/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(1383, Array)
+#5 /home/pallmal2/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/pallmal2/public_html/wp-inclu in /home/pallmal2/public_html/wp-content/plugins/ship-depot/helper/class-function-get-data.php on line 25
+[31-Dec-2023 17:34:02 UTC] PHP Fatal error:  Uncaught TypeError: Typed property Ship_Depot_Package::$Length must be float, string used in /home/pallmal2/public_html/wp-content/plugins/ship-depot/helper/class-function-get-data.php:25
+Stack trace:
+#0 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(173): Ship_Depot_Get_Data->get_package_sizes()
+#1 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(140): sd_submit_data_and_save_to_order_meta_data(Object(Automattic\WooCommerce\Admin\Overrides\Order), false, true)
+#2 /home/pallmal2/public_html/wp-content/plugins/ship-depot/page/admin/orders/sd-order-detail.php(45): sd_woocommerce_new_shipping(1383)
+#3 /home/pallmal2/public_html/wp-includes/class-wp-hook.php(326): sd_save_wc_order_other_fields(1383)
+#4 /home/pallmal2/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(1383, Array)
+#5 /home/pallmal2/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/pallmal2/public_html/wp-inclu in /home/pallmal2/public_html/wp-content/plugins/ship-depot/helper/class-function-get-data.php on line 25

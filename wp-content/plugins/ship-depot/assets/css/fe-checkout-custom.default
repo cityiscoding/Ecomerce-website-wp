@@ -1,0 +1,58 @@
+:root {
+  /*Biến dùng trong CSS bên dưới*/
+  --image-service-width: 150px;
+  --text-description-color: #646970;
+}
+
+/* CSS khu vực hiển thị của Ship Depot */
+#shipping_fee_content {
+  text-align: left;
+}
+
+/* CSS cho tag p, span */
+#shipping_fee_content p,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  font-weight: normal;
+}
+
+/*CSS giá tiền dịch vụ*/
+#shipping_fee_content .fee {
+  font-weight: bold;
+}
+
+/*CSS mô tả chi tiết phí dịch vụ (nếu có chọn hiển thị trong Cài đặt của Ship Depot)*/
+#shipping_fee_content .text-description {
+  color: var(--text-description-color);
+}
+
+/*CSS phí dịch vụ Thu tiền khi giao thất bại (nếu có chọn hiển thị trong Cài đặt của Ship Depot)*/
+#shipping_fee_content .cod-failed-description {
+  font-style: italic;
+  font-weight: bold;
+  color: var(--text-description-color);
+}
+
+/* CSS logo của dịch vụ */
+#shipping_fee_content div.courier-fee img {
+  width: var(--image-service-width);
+  margin: 5px 0 10px 0;
+}
+
+/* CSS nút chọn dịch vụ */
+#shipping_fee_content .service-fee input[type="radio"] {
+  margin: 5px 8px 0 16px;
+}
+
+/* CSS ô ghi chú */
+#shipping_fee_content #sd_note {
+  margin: 15px 0px;
+}
+
+/* CSS ô ghi chú */
+#shipping_fee_content #sd_note textarea {
+  width: 100%;
+  resize: none;
+  height: 100px;
+}

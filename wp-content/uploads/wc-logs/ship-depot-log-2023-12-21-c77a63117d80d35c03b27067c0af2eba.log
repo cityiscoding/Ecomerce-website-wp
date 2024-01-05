@@ -1,0 +1,535 @@
+2023-12-21T13:31:21+00:00 DEBUG 
+[Ship_Depot_Shop_Info] this: Ship_Depot_Shop_Info Object
+(
+    [MemberISN] => 0
+    [CompanyName] => PallMall
+    [UserName] => tranthanhpho2k2
+    [FirstName] => Trần Thành Phố
+    [LastName] => 
+    [Phone] => 0857332962
+    [Address] => Ấp 3 Xã An Xuyên Thành Phố Cà Mau Tỉnh Cà M
+    [Ward] => Xã An Xuyên
+    [District] => Thành phố Cà Mau
+    [City] => Cà Mau
+    [CityISN] => 13935
+    [DistrictISN] => 14077
+    [WardISN] => 25018
+)
+
+
+2023-12-21T13:31:21+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivering
+    [Name] => Đang giao hàng
+    [Description] => Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:21+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivered
+    [Name] => Giao hàng thành công
+    [Description] => Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:21+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivery_fail
+    [Name] => Giao hàng không thành công
+    [Description] => Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:21+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => for_control
+    [Name] => Đã đối soát
+    [Description] => Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][Ship_Depot_Settings][save] $current_tab: "sd_settings"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][Ship_Depot_Settings][save] $current_section: ""
+
+2023-12-21T13:31:29+00:00 DEBUG 
+==================================================================================================================
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[save_general_settings] _POST: Array
+(
+    [sd_general_nonce] => 66a750dfb6
+    [_wp_http_referer] => /wp-admin/admin.php?page=wc-settings&tab=sd_settings
+    [sd_api_key] => ITl4sYn0RK764exsuoee
+    [cb_auto_create_shipping] => 1
+    [sd_status_auto_create_shipping] => Array
+        (
+            [wc-processing] => wc-processing
+        )
+
+    [shipdepot] => Array
+        (
+            [status_id] => Array
+                (
+                    [0] => delivering
+                    [1] => delivered
+                    [2] => delivery_fail
+                    [3] => for_control
+                )
+
+            [delivering] => Array
+                (
+                    [data] => {\'ID\':\'delivering\',\'Name\':\'Đang giao hàng\',\'Description\':\'Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.\',\'IsUsed\':false,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                )
+
+            [delivered] => Array
+                (
+                    [data] => {\'ID\':\'delivered\',\'Name\':\'Giao hàng thành công\',\'Description\':\'Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.\',\'IsUsed\':false,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                )
+
+            [delivery_fail] => Array
+                (
+                    [data] => {\'ID\':\'delivery_fail\',\'Name\':\'Giao hàng không thành công\',\'Description\':\'Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.\',\'IsUsed\':false,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                )
+
+            [for_control] => Array
+                (
+                    [data] => {\'ID\':\'for_control\',\'Name\':\'Đã đối soát\',\'Description\':\'Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.\',\'IsUsed\':false,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                )
+
+        )
+
+    [cb_accept_debug_log] => 1
+    [save] => Lưu thay đổi
+    [_wpnonce] => 1383b06261
+)
+
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_option] sd_api_key:"ITl4sYn0RK764exsuoee"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_option] update_option - sd_api_key = ITl4sYn0RK764exsuoee
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_option] get_option - sd_api_key aft: "ITl4sYn0RK764exsuoee"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[save_general_settings] new_api_key: ITl4sYn0RK764exsuoee
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[save_general_settings] current_api_key: ITl4sYn0RK764exsuoee
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] cb_show_shipping_fee_detail:"no"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] update_option - sd_show_shipping_fee_detail = no
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] get_option - sd_show_shipping_fee_detail aft: "no"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] cb_auto_create_shipping:"1"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] update_option - sd_auto_create_shipping = yes
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] get_option - sd_auto_create_shipping aft: "yes"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[save_general_settings] list statuses auto create shipping: wc-processing
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"delivering","Name":"Đang giao hàng","Description":"Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.","IsUsed":false,"WooOrderStatusID":""}
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivering
+    [Name] => Đang giao hàng
+    [Description] => Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"delivered","Name":"Giao hàng thành công","Description":"Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.","IsUsed":false,"WooOrderStatusID":""}
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivered
+    [Name] => Giao hàng thành công
+    [Description] => Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"delivery_fail","Name":"Giao hàng không thành công","Description":"Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.","IsUsed":false,"WooOrderStatusID":""}
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivery_fail
+    [Name] => Giao hàng không thành công
+    [Description] => Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"for_control","Name":"Đã đối soát","Description":"Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.","IsUsed":false,"WooOrderStatusID":""}
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => for_control
+    [Name] => Đã đối soát
+    [Description] => Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[save_general_settings] list_statuses: Array
+(
+    [0] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => delivering
+            [Name] => Đang giao hàng
+            [Description] => Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.
+            [IsUsed] => 1
+            [WooOrderStatusID] => 
+        )
+
+    [1] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => delivered
+            [Name] => Giao hàng thành công
+            [Description] => Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+            [IsUsed] => 1
+            [WooOrderStatusID] => 
+        )
+
+    [2] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => delivery_fail
+            [Name] => Giao hàng không thành công
+            [Description] => Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+            [IsUsed] => 1
+            [WooOrderStatusID] => 
+        )
+
+    [3] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => for_control
+            [Name] => Đã đối soát
+            [Description] => Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+            [IsUsed] => 1
+            [WooOrderStatusID] => 
+        )
+
+)
+
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] cb_accept_debug_log:"1"
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] update_option - sd_accept_debug_log = yes
+
+2023-12-21T13:31:29+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] get_option - sd_accept_debug_log aft: "yes"
+
+2023-12-21T13:31:30+00:00 DEBUG 
+[Ship_Depot_Shop_Info] this: Ship_Depot_Shop_Info Object
+(
+    [MemberISN] => 0
+    [CompanyName] => PallMall
+    [UserName] => tranthanhpho2k2
+    [FirstName] => Trần Thành Phố
+    [LastName] => 
+    [Phone] => 0857332962
+    [Address] => Ấp 3 Xã An Xuyên Thành Phố Cà Mau Tỉnh Cà M
+    [Ward] => Xã An Xuyên
+    [District] => Thành phố Cà Mau
+    [City] => Cà Mau
+    [CityISN] => 13935
+    [DistrictISN] => 14077
+    [WardISN] => 25018
+)
+
+
+2023-12-21T13:31:30+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivering
+    [Name] => Đang giao hàng
+    [Description] => Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:30+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivered
+    [Name] => Giao hàng thành công
+    [Description] => Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:30+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivery_fail
+    [Name] => Giao hàng không thành công
+    [Description] => Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:30+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => for_control
+    [Name] => Đã đối soát
+    [Description] => Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][Ship_Depot_Settings][save] $current_tab: "sd_settings"
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][Ship_Depot_Settings][save] $current_section: ""
+
+2023-12-21T13:31:33+00:00 DEBUG 
+==================================================================================================================
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[save_general_settings] _POST: Array
+(
+    [sd_general_nonce] => 66a750dfb6
+    [_wp_http_referer] => /wp-admin/admin.php?page=wc-settings&tab=sd_settings
+    [sd_api_key] => ITl4sYn0RK764exsuoee
+    [cb_auto_create_shipping] => 1
+    [sd_status_auto_create_shipping] => Array
+        (
+            [wc-processing] => wc-processing
+        )
+
+    [shipdepot] => Array
+        (
+            [status_id] => Array
+                (
+                    [0] => delivering
+                    [1] => delivered
+                    [2] => delivery_fail
+                    [3] => for_control
+                )
+
+            [delivering] => Array
+                (
+                    [data] => {\'ID\':\'delivering\',\'Name\':\'Đang giao hàng\',\'Description\':\'Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.\',\'IsUsed\':true,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                    [WooOrderStatusID] => wc-sd-delivering
+                )
+
+            [delivered] => Array
+                (
+                    [data] => {\'ID\':\'delivered\',\'Name\':\'Giao hàng thành công\',\'Description\':\'Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.\',\'IsUsed\':true,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                    [WooOrderStatusID] => wc-sd-delivered
+                )
+
+            [delivery_fail] => Array
+                (
+                    [data] => {\'ID\':\'delivery_fail\',\'Name\':\'Giao hàng không thành công\',\'Description\':\'Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.\',\'IsUsed\':true,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                    [WooOrderStatusID] => wc-sd-delivery-failed
+                )
+
+            [for_control] => Array
+                (
+                    [data] => {\'ID\':\'for_control\',\'Name\':\'Đã đối soát\',\'Description\':\'Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.\',\'IsUsed\':true,\'WooOrderStatusID\':\'\'}
+                    [IsUsed] => 1
+                    [WooOrderStatusID] => wc-completed
+                )
+
+        )
+
+    [save] => Lưu thay đổi
+    [_wpnonce] => 1383b06261
+)
+
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_option] sd_api_key:"ITl4sYn0RK764exsuoee"
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_option] update_option - sd_api_key = ITl4sYn0RK764exsuoee
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_option] get_option - sd_api_key aft: "ITl4sYn0RK764exsuoee"
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[save_general_settings] new_api_key: ITl4sYn0RK764exsuoee
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[save_general_settings] current_api_key: ITl4sYn0RK764exsuoee
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] cb_show_shipping_fee_detail:"no"
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] update_option - sd_show_shipping_fee_detail = no
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] get_option - sd_show_shipping_fee_detail aft: "no"
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] cb_auto_create_shipping:"1"
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] update_option - sd_auto_create_shipping = yes
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] get_option - sd_auto_create_shipping aft: "yes"
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[save_general_settings] list statuses auto create shipping: wc-processing
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"delivering","Name":"Đang giao hàng","Description":"Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.","IsUsed":true,"WooOrderStatusID":""}
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivering
+    [Name] => Đang giao hàng
+    [Description] => Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"delivered","Name":"Giao hàng thành công","Description":"Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.","IsUsed":true,"WooOrderStatusID":""}
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivered
+    [Name] => Giao hàng thành công
+    [Description] => Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"delivery_fail","Name":"Giao hàng không thành công","Description":"Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.","IsUsed":true,"WooOrderStatusID":""}
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => delivery_fail
+    [Name] => Giao hàng không thành công
+    [Description] => Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[CleanJsonFromHTML] $json aft: {"ID":"for_control","Name":"Đã đối soát","Description":"Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.","IsUsed":true,"WooOrderStatusID":""}
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Shipping_Status] this: Ship_Depot_Shipping_Status Object
+(
+    [ID] => for_control
+    [Name] => Đã đối soát
+    [Description] => Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+    [IsUsed] => 1
+    [WooOrderStatusID] => 
+)
+
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[save_general_settings] list_statuses: Array
+(
+    [0] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => delivering
+            [Name] => Đang giao hàng
+            [Description] => Tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động khi vận đơn đang trên đường giao đến khách hàng.
+            [IsUsed] => 1
+            [WooOrderStatusID] => wc-sd-delivering
+        )
+
+    [1] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => delivered
+            [Name] => Giao hàng thành công
+            [Description] => Trường hợp vận đơn đã hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+            [IsUsed] => 1
+            [WooOrderStatusID] => wc-sd-delivered
+        )
+
+    [2] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => delivery_fail
+            [Name] => Giao hàng không thành công
+            [Description] => Nếu vận đơn không thể hoàn thành, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+            [IsUsed] => 1
+            [WooOrderStatusID] => wc-sd-delivery-failed
+        )
+
+    [3] => Ship_Depot_Shipping_Status Object
+        (
+            [ID] => for_control
+            [Name] => Đã đối soát
+            [Description] => Nếu vận đơn đã đối soát, tuỳ chọn bên dưới sẽ giúp cập nhật trạng thái đơn hàng tự động.
+            [IsUsed] => 1
+            [WooOrderStatusID] => wc-completed
+        )
+
+)
+
+
+2023-12-21T13:31:33+00:00 DEBUG 
+[Ship_Depot_Settings][save_checkbox] cb_accept_debug_log:"no"
+
